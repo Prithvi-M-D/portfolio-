@@ -1,0 +1,33 @@
+.about-svg-holder {
+  display: flex;
+  flex-direction: row;
+  width: 60rem;
+  margin: auto;
+}
+.about-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin: 10px;
+}
+.content {
+  width: 400px;
+}
+
+.me {
+  width: 50px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    width: 300px;
+  }
+  .about-svg-holder {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin-top: 0px;
+  }
+}

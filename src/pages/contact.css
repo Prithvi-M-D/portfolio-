@@ -1,0 +1,45 @@
+.contact-wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.input-textbox {
+  display: flex;
+  margin: 15px;
+  width: 20rem;
+  padding: 10px;
+  background-color: rgb(197, 195, 195);
+  border: none;
+  border-radius: 4px;
+}
+.btn-submit {
+  display: flex;
+  margin: 15px;
+  padding: 10px;
+  background-color: rgb(6, 46, 83);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.btn-submit:hover {
+  cursor: pointer;
+}
+
+.input-textbox-sep {
+  display: flex;
+  margin: 15px;
+  width: 21rem;
+  height: 5rem;
+  background-color: rgb(197, 195, 195);
+  border: none;
+  border-radius: 4px;
+}
+
+@media screen and (max-width:600px) {
+    .input-textbox{
+        width: 300px;
+    }
+}
